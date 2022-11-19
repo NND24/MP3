@@ -2854,16 +2854,16 @@ const app = {
 
   renderPlaylist() {
     playlistLists.forEach((playlistList, playlistIndex) => {
-      const createNewPlaylistHTML = `
-        <div class="col col-lg-2-4 col-md-3 col-4 mb-30">
-          <div class="row__item  playlist--create item--playlist">
-            <div class="row__item-container create--new-playlist">
-              <i class="bi bi-plus-lg"></i>
-              <span>Tạo playlist mới</span>
-            </div>
-          </div>
-        </div>
-      `
+      // const createNewPlaylistHTML = `
+      //   <div class="col col-lg-2-4 col-md-3 col-4 mb-30">
+      //     <div class="row__item  playlist--create item--playlist">
+      //       <div class="row__item-container create--new-playlist">
+      //         <i class="bi bi-plus-lg"></i>
+      //         <span>Tạo playlist mới</span>
+      //       </div>
+      //     </div>
+      //   </div>
+      // `
       const playlistHTML = this.listPlaylist.map((song, index) => {
         return `
                 <div class="col col-lg-2-4 col-md-3 col-4 mb-30">
@@ -2895,8 +2895,8 @@ const app = {
                 </div>
                 `;
       });
-      const HTMLs = createNewPlaylistHTML.concat(playlistHTML);
-      playlistList.innerHTML = HTMLs;
+      //const HTMLs = createNewPlaylistHTML.concat(playlistHTML);
+      playlistList.innerHTML = createNewPlaylistHTML.join("");
     });
   },
 
