@@ -2896,7 +2896,7 @@ const app = {
                 `;
       });
       //const HTMLs = createNewPlaylistHTML.concat(playlistHTML);
-      playlistList.innerHTML = createNewPlaylistHTML.join("");
+      playlistList.innerHTML = playlistHTML.join("");
     });
   },
 
