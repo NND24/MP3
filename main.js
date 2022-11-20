@@ -50,6 +50,8 @@ const singerSlideContainers = Array.from($$(".singer-slide--container"));
 const newPlaylistMoveBtns = Array.from($$(".move-btn--new-playlist"));
 const favArtistMoveBtns = Array.from($$(".move-btn--fav-artist"));
 const sidebar = $(".app__sidebar");
+const playlistSidebarBtn = $(".player__list-icon");
+const playlistSidebar = $(".app__playlsit-sidebar")
 const sidebarExpandBtn = $(".sidebar__expand-btn.btn--expand");
 const sidebarShrinkBtn = $(".sidebar__expand-btn.btn--shrink");
 const sidebarSubnavItems = Array.from($$(".sidebar__subnav .subnab--item"));
@@ -2854,16 +2856,6 @@ const app = {
 
   renderPlaylist() {
     playlistLists.forEach((playlistList, playlistIndex) => {
-      const createNewPlaylistHTML = `
-        <div class="col col-lg-2-4 col-md-3 col-4 mb-30">
-          <div class="row__item  playlist--create item--playlist">
-            <div class="row__item-container create--new-playlist">
-              <i class="bi bi-plus-lg"></i>
-              <span>Tạo playlist mới</span>
-            </div>
-          </div>
-        </div>
-      `
       const playlistHTML = this.listPlaylist.map((song, index) => {
         return `
                 <div class="col col-lg-2-4 col-md-3 col-4 mb-30">
@@ -2895,8 +2887,7 @@ const app = {
                 </div>
                 `;
       });
-      const HTMLs = createNewPlaylistHTML.concat(playlistHTML);
-      playlistList.innerHTML = HTMLs;
+      playlistList.innerHTML = playlistHTML.join("");
     });
   },
 
@@ -3301,7 +3292,7 @@ const app = {
                             <img src="${app.specialPlaylists[playlistListIndex].header.image}" alt="">
                         </div>
                         <div class="special__header-info">
-                            <div class="info__explication">${app.specialPlaylists[playlistListIndex].header.explicatio}</div>
+                            <div class="info__explication">${app.specialPlaylists[playlistListIndex].header.explication}</div>
                             <div class="info__topic-name is-active">${app.specialPlaylists[playlistListIndex].header.topicName}</div>
                         </div>
                     </div>
@@ -4229,6 +4220,12 @@ const app = {
         _this.loadCurrentPlaylist(playlistBtn, index);
       };
     });
+
+    // Handle open playlist sidebar
+    playlistSidebarBtn.onclick = function() {
+      playlistSidebar.classList.toggle("open")
+      playlistSidebarBtn.classList.toggle("open")
+    }
 
     // Open and close modal theme
     navThemeBtn.onclick = function () {

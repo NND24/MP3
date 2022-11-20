@@ -410,7 +410,12 @@ button,
 .fav-artist--container::-webkit-scrollbar,
 .new-playlist--container::-webkit-scrollbar,
 .label--container::-webkit-scrollbar,
-.new-playlist--container::-webkit-scrollbar {
+.new-playlist--container::-webkit-scrollbar,
+.label--container::-webkit-scrollbar,
+.new-playlist--container::-webkit-scrollbar, 
+.special-playlist--container::-webkit-scrollbar, 
+.normal-playlist--container::-webkit-scrollbar,
+.event--container::-webkit-scrollbar {
   display: none;
 }
 
