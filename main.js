@@ -51,7 +51,7 @@ const newPlaylistMoveBtns = Array.from($$(".move-btn--new-playlist"));
 const favArtistMoveBtns = Array.from($$(".move-btn--fav-artist"));
 const sidebar = $(".app__sidebar");
 const playlistSidebarBtn = $(".player__list-icon");
-const playlistSidebar = $(".app__playlsit-sidebar")
+const playlistSidebar = $(".app__playlsit-sidebar");
 const sidebarExpandBtn = $(".sidebar__expand-btn.btn--expand");
 const sidebarShrinkBtn = $(".sidebar__expand-btn.btn--shrink");
 const sidebarSubnavItems = Array.from($$(".sidebar__subnav .subnab--item"));
@@ -1338,39 +1338,33 @@ const app = {
       header: {
         explication: "Vì bạn đã nghe",
         topicName: "Nguyễn Trọng Tài",
-        image:
-          "./assets/image/tabExplore/specialPlaylists/headerAvatars/playlistList1.jpg",
+        image: "./assets/image/tabExplore/specialPlaylists/headerAvatars/playlistList1.jpg",
       },
       playlists: [
         {
           name: "Những Bài Hát Hay Nhất Của Nguyễn Trọng Tài",
           artists: ["Nguyễn Trọng Tài"],
-          image:
-            "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList1/playlist1.jpg",
+          image: "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList1/playlist1.jpg",
         },
         {
           name: "Cớ Sao Em Buồn (Single)",
           artists: ["Nguyễn Trọng Tài"],
-          image:
-            "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList1/playlist2.jpg",
+          image: "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList1/playlist2.jpg",
         },
         {
           name: "Ngừng Mơ (Single)",
           artists: ["Nguyễn Trọng Tài"],
-          image:
-            "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList1/playlist3.jpg",
+          image: "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList1/playlist3.jpg",
         },
         {
           name: "Hongkong1 (Single)",
           artists: ["Nguyễn Trọng Tài"],
-          image:
-            "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList1/playlist4.jpg",
+          image: "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList1/playlist4.jpg",
         },
         {
           name: "Cớ Sao Em Buồn (Remixes EP)",
           artists: ["Nguyễn Trọng Tài"],
-          image:
-            "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList1/playlist5.jpg",
+          image: "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList1/playlist5.jpg",
         },
       ],
     },
@@ -1378,39 +1372,33 @@ const app = {
       header: {
         explication: "Bạn đã nghe nhiều",
         topicName: "Hip-Hop",
-        image:
-          "./assets/image/tabExplore/specialPlaylists/headerAvatars/playlistList2.jpg",
+        image: "./assets/image/tabExplore/specialPlaylists/headerAvatars/playlistList2.jpg",
       },
       playlists: [
         {
           name: "Today's Rap Hits",
           artists: ["Drake", "Kanye West", "Lil Nas X"],
-          image:
-            "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList2/playlist1.jpg",
+          image: "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList2/playlist1.jpg",
         },
         {
           name: "Rap Việt Cũ Mà Hay",
           artists: ["Rhymastic", "LK", "Yanbi"],
-          image:
-            "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList2/playlist2.jpg",
+          image: "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList2/playlist2.jpg",
         },
         {
           name: "Rap Việt Cực Chất",
           artists: ["16 Typh", "Tage", "ICD"],
-          image:
-            "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList2/playlist3.jpg",
+          image: "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList2/playlist3.jpg",
         },
         {
           name: "Rap Việt Kết Hợp Cực Chất",
           artists: ["G5R Squad", "Phan Ann", "Tlinh"],
-          image:
-            "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList2/playlist4.jpg",
+          image: "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList2/playlist4.jpg",
         },
         {
           name: "Rap Việt Thả Thính Hay Nhất",
           artists: ["OSAD", "HIEUTHUHAI", "Obito"],
-          image:
-            "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList2/playlist5.jpg",
+          image: "./assets/image/tabExplore/specialPlaylists/playlistSongs/playlistList2/playlist5.jpg",
         },
       ],
     },
@@ -1420,39 +1408,33 @@ const app = {
       header: {
         explication: "Nghe lại",
         topicName: "Xone Radio",
-        image:
-          "./assets/image/tabRadio/specialPlaylists/headerAvatars/playlistList1.jpg",
+        image: "./assets/image/tabRadio/specialPlaylists/headerAvatars/playlistList1.jpg",
       },
       playlists: [
         {
           name: "XONE with Stars",
           artists: [],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist1.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist1.jpg",
         },
         {
           name: "BREAKFAST XONE",
           artists: [],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist2.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist2.jpg",
         },
         {
           name: "DRIVEXONE",
           artists: [],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist3.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist3.jpg",
         },
         {
           name: "XONE REWIND",
           artists: [],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist4.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist4.jpg",
         },
         {
           name: "The Daily XONE",
           artists: [],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist5.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist5.jpg",
         },
       ],
     },
@@ -1460,39 +1442,33 @@ const app = {
       header: {
         explication: "Podcast",
         topicName: "Vietcetera",
-        image:
-          "./assets/image/tabRadio/specialPlaylists/headerAvatars/playlistList2.jpg",
+        image: "./assets/image/tabRadio/specialPlaylists/headerAvatars/playlistList2.jpg",
       },
       playlists: [
         {
           name: "Have A Sip",
           artists: [],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList2/playlist1.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList2/playlist1.jpg",
         },
         {
           name: "Vietnam Innovators",
           artists: [],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList2/playlist2.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList2/playlist2.jpg",
         },
         {
           name: "Bít Tất",
           artists: [],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList2/playlist3.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList2/playlist3.jpg",
         },
         {
           name: "M.A.D",
           artists: [],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList2/playlist4.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList2/playlist4.jpg",
         },
         {
           name: "Tóm Lại Là",
           artists: [],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList2/playlist5.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList2/playlist5.jpg",
         },
       ],
     },
@@ -1500,27 +1476,23 @@ const app = {
       header: {
         explication: "Nghe lại",
         topicName: "On Air",
-        image:
-          "./assets/image/tabRadio/specialPlaylists/headerAvatars/playlistList3.jpg",
+        image: "./assets/image/tabRadio/specialPlaylists/headerAvatars/playlistList3.jpg",
       },
       playlists: [
         {
           name: "Nhạc Mới Mỗi Ngày",
           artists: [],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList3/playlist1.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList3/playlist1.jpg",
         },
         {
           name: "Chạm x Sao",
           artists: [],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList3/playlist2.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList3/playlist2.jpg",
         },
         {
           name: "Chạm x Bạn",
           artists: [],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList3/playlist3.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList3/playlist3.jpg",
         },
       ],
     },
@@ -1528,39 +1500,33 @@ const app = {
       header: {
         explication: "",
         topicName: "",
-        image:
-          "./assets/image/tabRadio/specialPlaylists/headerAvatars/playlistList1.jpg",
+        image: "./assets/image/tabRadio/specialPlaylists/headerAvatars/playlistList1.jpg",
       },
       playlists: [
         {
           name: "",
           artists: ["", "", ""],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist1.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist1.jpg",
         },
         {
           name: "",
           artists: ["", "", ""],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist2.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist2.jpg",
         },
         {
           name: "",
           artists: ["", "", ""],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist3.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist3.jpg",
         },
         {
           name: "",
           artists: ["", "", ""],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist4.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist4.jpg",
         },
         {
           name: "",
           artists: ["", "", ""],
-          image:
-            "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist5.jpg",
+          image: "./assets/image/tabRadio/specialPlaylists/playlistSongs/playlistList1/playlist5.jpg",
         },
       ],
     },
@@ -1573,32 +1539,27 @@ const app = {
         {
           name: "Mở Đầu Hoàn Hảo",
           artists: ["AMEE", "ERIK", "Hoàng Duyên"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList1/playlist1.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList1/playlist1.jpg",
         },
         {
           name: "V-Pop: The A-List",
           artists: ["Bích Phương", "Hoàng Thùy Linh", "ERIK"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList1/playlist2.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList1/playlist2.jpg",
         },
         {
           name: "Tỏ Tình Nhẹ Nhàng Thôi",
           artists: ["Quân A.P", "Changg", "Hoàng Duyên"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList1/playlist3.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList1/playlist3.jpg",
         },
         {
           name: "Nhạc Trẻ Gây Nghiện",
           artists: ["AMEE", "Quân A.P", "ERIK"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList1/playlist4.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList1/playlist4.jpg",
         },
         {
           name: "HIT-MAKER: Nổi Bật",
           artists: ["LyLy", "RIN9", "Vương Anh Tú"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList1/playlist5.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList1/playlist5.jpg",
         },
       ],
     },
@@ -1607,35 +1568,28 @@ const app = {
       playlists: [
         {
           name: "Đóa Hồng Nhạc Việt",
-          artists: [
-            "Những đóa hồng tạo nên dấu ấn trên thị trường âm nhạc Việt hiện nay",
-          ],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList2/playlist1.jpg",
+          artists: ["Những đóa hồng tạo nên dấu ấn trên thị trường âm nhạc Việt hiện nay"],
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList2/playlist1.jpg",
         },
         {
           name: "V-Pop Rising",
           artists: ["Những tài năng Gen Z của V-Pop đáng nghe nhất hôm nay"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList2/playlist2.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList2/playlist2.jpg",
         },
         {
           name: "Everyday EDM",
           artists: ["Khởi động mỗi ngày với những ca khúc EDM sôi động"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList2/playlist3.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList2/playlist3.jpg",
         },
         {
           name: "K-Pop Newbie",
           artists: ["Những hạt giống tiềm năng của K-Pop thế hệ mới"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList2/playlist4.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList2/playlist4.jpg",
         },
         {
           name: "Anime Now",
           artists: ["Nhạc Anime hot nhất ở thời điểm hiện tại có ngay tại đây"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList2/playlist5.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList2/playlist5.jpg",
         },
       ],
     },
@@ -1645,32 +1599,27 @@ const app = {
         {
           name: "New Releases",
           artists: ["Những ca khúc tạo nên xu hướng âm nhạc mới!"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList3/playlist1.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList3/playlist1.jpg",
         },
         {
           name: "Today's Electronic",
           artists: ["Cuồng nhiệt, đầy mê hoặc với giai điệu Electronic"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList3/playlist2.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList3/playlist2.jpg",
         },
         {
           name: "XONE's Picks",
           artists: ["Top ca khúc XONE chọn riêng cho hôm nay"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList3/playlist3.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList3/playlist3.jpg",
         },
         {
           name: "Lany's Flavour",
           artists: ["Thưởng thức âm nhạc từ nghệ sỹ bạn yêu thích"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList3/playlist4.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList3/playlist4.jpg",
         },
         {
           name: "Asia Tune",
           artists: ["Bài hát tuyển chọn cho người chơi hệ châu Á"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList3/playlist5.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList3/playlist5.jpg",
         },
       ],
     },
@@ -1680,32 +1629,27 @@ const app = {
         {
           name: "",
           artists: ["SOOBIN", "Binz", "MCK"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList4/playlist1.jfif",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList4/playlist1.jfif",
         },
         {
           name: "",
           artists: ["Jack", "Uyên Linh", "Tino"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList4/playlist2.jfif",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList4/playlist2.jfif",
         },
         {
           name: "",
           artists: ["MCK", "tlinh", "Khắc Hưng"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList4/playlist3.jfif",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList4/playlist3.jfif",
         },
         {
           name: "",
           artists: ["Rhymastic", "Phương Ly", "Touliver"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList4/playlist4.jfif",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList4/playlist4.jfif",
         },
         {
           name: "",
           artists: ["Hương Ly", "Huy Nam (A#)", "Trúc Nhân"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList4/playlist5.jfif",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList4/playlist5.jfif",
         },
       ],
     },
@@ -1715,32 +1659,27 @@ const app = {
         {
           name: "Nhạc Việt Tháng 10/2021",
           artists: ["Nguyên Hà", "Đức Phúc", "Bích Phương"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList5/playlist1.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList5/playlist1.jpg",
         },
         {
           name: "Nhạc Âu Mỹ Tháng 10/2021",
           artists: ["Jeremy Zucker", "Lil Nas X", "Nicki Minaj"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList5/playlist2.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList5/playlist2.jpg",
         },
         {
           name: "Nhạc Hàn Tháng 10/2021",
           artists: ["CL", "aespa", "Key"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList5/playlist3.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList5/playlist3.jpg",
         },
         {
           name: "Nhạc Hoa Tháng 10/2021",
           artists: ["Trình Hưởng", "PANTHEPACK", "Sunnee Dương Vân Tình"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList5/playlist4.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList5/playlist4.jpg",
         },
         {
           name: "Indie Việt Tháng 10/2021",
           artists: ["Duongg", "Starry Night", "Charles Huỳnh"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList5/playlist5.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList5/playlist5.jpg",
         },
       ],
     },
@@ -1750,32 +1689,27 @@ const app = {
         {
           name: "Top 100 Nhạc Dance Việt Nam Hay Nhất",
           artists: [],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList6/playlist1.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList6/playlist1.jpg",
         },
         {
           name: "Top 100 Bài Hát Nhạc Trẻ Hay Nhất",
           artists: [],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList6/playlist2.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList6/playlist2.jpg",
         },
         {
           name: "Top 100 Pop Âu Mỹ Hay Nhất",
           artists: [],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList6/playlist3.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList6/playlist3.jpg",
         },
         {
           name: "Top 100 Nhạc Electronic/Dance Âu Mỹ Hay Nhất",
           artists: [],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList6/playlist4.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList6/playlist4.jpg",
         },
         {
           name: "Top 100 Nhạc Hàn Quốc Hay Nhất",
           artists: [],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList6/playlist5.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList6/playlist5.jpg",
         },
       ],
     },
@@ -1785,32 +1719,27 @@ const app = {
         {
           name: "Ta Thương Người, Người Chẳng Thương Ta (Single)",
           artists: ["Huy Vạc"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList7/playlist1.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList7/playlist1.jpg",
         },
         {
           name: "Ôm Trọn Nỗi Đau (Single)",
           artists: ["Tino", "Lưu Hiền Trinh"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList7/playlist2.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList7/playlist2.jpg",
         },
         {
           name: "Bao Lâu Ta Lại Yêu Một Người (Lofi Version) (Single)",
           artists: ["Doãn Hiếu"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList7/playlist3.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList7/playlist3.jpg",
         },
         {
           name: "vâng anh đi đi (liu riu version) (Single)",
           artists: ["Bích Phương"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList7/playlist4.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList7/playlist4.jpg",
         },
         {
           name: "Đêm Mưa (Single)",
           artists: ["Duy Ngọc"],
-          image:
-            "./assets/image/tabExplore/normalPlaylists/playlistList7/playlist5.jpg",
+          image: "./assets/image/tabExplore/normalPlaylists/playlistList7/playlist5.jpg",
         },
       ],
     },
@@ -1898,7 +1827,7 @@ const app = {
       singers: ["Hương Ly"],
       time: "05:11",
       path: "./assets/music/listSong1/song1.mp3",
-      image: "./assets/image/mabCharts/song1.jpg",
+      image: "./assets/image/tabCharts/song1.jpg",
     },
     {
       name: "Yêu Là Cưới",
@@ -1906,7 +1835,7 @@ const app = {
       singers: ["Phát Hồ", "X2X"],
       time: "02:59",
       path: "./assets/music/listSong1/song2.mp3",
-      image: "./assets/image/mabCharts/song2.jpg",
+      image: "./assets/image/tabCharts/song2.jpg",
     },
     {
       name: "Em Là Con Thuyền Cô Đơn",
@@ -1914,7 +1843,7 @@ const app = {
       singers: ["Thái Học"],
       time: "05:04",
       path: "./assets/music/listSong1/song3.mp3",
-      image: "./assets/image/mabCharts/song3.jpg",
+      image: "./assets/image/tabCharts/song3.jpg",
     },
     {
       name: "Khuê Mộc Lang",
@@ -1922,7 +1851,7 @@ const app = {
       singers: ["Hương Ly", "Jombie"],
       time: "03:26",
       path: "./assets/music/listSong1/song4.flac",
-      image: "./assets/image/mabCharts/song4.jpg",
+      image: "./assets/image/tabCharts/song4.jpg",
     },
     {
       name: "Yêu Là Cưới (Remix)",
@@ -1930,7 +1859,7 @@ const app = {
       singers: ["Phát Hồ", "DinhLong", "X2X"],
       time: "03:50",
       path: "./assets/music/listSong1/song5.mp3",
-      image: "./assets/image/mabCharts/song5.jpg",
+      image: "./assets/image/tabCharts/song5.jpg",
     },
     {
       name: "Thay Lòng",
@@ -1938,7 +1867,7 @@ const app = {
       singers: ["DIMZ", "TVk", "NH4T"],
       time: "04:36",
       path: "./assets/music/listSong1/song6.mp3",
-      image: "./assets/image/mabCharts/song6.jpg",
+      image: "./assets/image/tabCharts/song6.jpg",
     },
     {
       name: "Rồi Tới Luôn",
@@ -1946,7 +1875,7 @@ const app = {
       singers: ["Nal"],
       time: "04:07",
       path: "./assets/music/listSong1/song7.mp3",
-      image: "./assets/image/mabCharts/song7.jpg",
+      image: "./assets/image/tabCharts/song7.jpg",
     },
     {
       name: "Có Một Tình Yêu Gọi Là Chia Tay",
@@ -1954,7 +1883,7 @@ const app = {
       singers: ["Tăng Phúc", "Trương Thảo Nhi"],
       time: "04:18",
       path: "./assets/music/listSong1/song8.mp3",
-      image: "./assets/image/mabCharts/song8.jpg",
+      image: "./assets/image/tabCharts/song8.jpg",
     },
     {
       name: "Cưới Luôn Được Không?",
@@ -1962,7 +1891,7 @@ const app = {
       singers: ["YuniBoo", "Goctoi Mixer"],
       time: "04:02",
       path: "./assets/music/listSong1/song9.mp3",
-      image: "./assets/image/mabCharts/song9.jpg",
+      image: "./assets/image/tabCharts/song9.jpg",
     },
     {
       name: "Bao Lâu Ta Lại Yêu Một Người",
@@ -1970,7 +1899,7 @@ const app = {
       singers: ["Doãn Hiếu", "B."],
       time: "03:51",
       path: "./assets/music/listSong1/song10.flac",
-      image: "./assets/image/mabCharts/song10.jpg",
+      image: "./assets/image/tabCharts/song10.jpg",
     },
     {
       name: "Thương Nhau Tới Bến",
@@ -1978,7 +1907,7 @@ const app = {
       singers: ["Nal"],
       time: "04:55",
       path: "./assets/music/listSong1/song11.mp3",
-      image: "./assets/image/mabCharts/song11.jpg",
+      image: "./assets/image/tabCharts/song11.jpg",
     },
     {
       name: "Đông Phai Mờ Dáng Ai",
@@ -1986,7 +1915,7 @@ const app = {
       singers: ["DatKaa", "QT Beatz"],
       time: "04:40",
       path: "./assets/music/listSong1/song12.mp3",
-      image: "./assets/image/mabCharts/song12.jpg",
+      image: "./assets/image/tabCharts/song12.jpg",
     },
     {
       name: "Nhắn Rằng Anh Nhớ Em",
@@ -1994,7 +1923,7 @@ const app = {
       singers: ["Đình Dũng", "ACV"],
       time: "05:12",
       path: "./assets/music/listSong1/song13.mp3",
-      image: "./assets/image/mabCharts/song13.jpg",
+      image: "./assets/image/tabCharts/song13.jpg",
     },
     {
       name: "Dịu Dàng Em Đến",
@@ -2002,7 +1931,7 @@ const app = {
       singers: ["ERIK", "NinjaZ"],
       time: "03:05",
       path: "./assets/music/listSong1/song14.mp3",
-      image: "./assets/image/mabCharts/song14.jpg",
+      image: "./assets/image/tabCharts/song14.jpg",
     },
     {
       name: "Em Hát Ai Nghe",
@@ -2010,7 +1939,7 @@ const app = {
       singers: ["Orange"],
       time: "04:39",
       path: "./assets/music/listSong1/song15.mp3",
-      image: "./assets/image/mabCharts/song15.jpg",
+      image: "./assets/image/tabCharts/song15.jpg",
     },
     {
       name: "Vậy Là Ta Mất Nhau",
@@ -2018,7 +1947,7 @@ const app = {
       singers: ["Khải Đăng"],
       time: "04:15",
       path: "./assets/music/listSong1/song16.mp3",
-      image: "./assets/image/mabCharts/song16.jpg",
+      image: "./assets/image/tabCharts/song16.jpg",
     },
     {
       name: "vâng anh đi đi (liu riu version)",
@@ -2026,7 +1955,7 @@ const app = {
       singers: ["Bích Phương"],
       time: "03:39",
       path: "./assets/music/listSong1/song17.mp3",
-      image: "./assets/image/mabCharts/song17.jpg",
+      image: "./assets/image/tabCharts/song17.jpg",
     },
     {
       name: "Nếu Lúc Trước Em Đừng Tới",
@@ -2034,7 +1963,7 @@ const app = {
       singers: ["Phạm Đình Thái Ngân", "Hino"],
       time: "03:35",
       path: "./assets/music/listSong1/song18.mp3",
-      image: "./assets/image/mabCharts/song18.jpg",
+      image: "./assets/image/tabCharts/song18.jpg",
     },
     {
       name: "Cô Đơn Dành Cho Ai",
@@ -2042,7 +1971,7 @@ const app = {
       singers: ["Lee Ken", "Nal"],
       time: "03:51",
       path: "./assets/music/listSong1/song19.mp3",
-      image: "./assets/image/mabCharts/song19.jpg",
+      image: "./assets/image/tabCharts/song19.jpg",
     },
     {
       name: "MONEY",
@@ -2050,7 +1979,7 @@ const app = {
       singers: ["LISA"],
       time: "02:48",
       path: "./assets/music/listSong1/song20.mp3",
-      image: "./assets/image/mabCharts/song20.jpg",
+      image: "./assets/image/tabCharts/song20.jpg",
     },
     {
       name: "Yêu Mà Chưa Dám Nói",
@@ -2058,7 +1987,7 @@ const app = {
       singers: ["Thanh Hưng"],
       time: "04:25",
       path: "./assets/music/listSong1/song21.mp3",
-      image: "./assets/image/mabCharts/song21.jpg",
+      image: "./assets/image/tabCharts/song21.jpg",
     },
     {
       name: "Độ Tộc 2",
@@ -2066,7 +1995,7 @@ const app = {
       singers: ["Độ Mixi", "Pháo", "Phúc Du", "Masew"],
       time: "03:21",
       path: "./assets/music/listSong1/song22.mp3",
-      image: "./assets/image/mabCharts/song22.jpg",
+      image: "./assets/image/tabCharts/song22.jpg",
     },
     {
       name: "Chiều Đồng Quê",
@@ -2074,7 +2003,7 @@ const app = {
       singers: ["H2K"],
       time: "03:20",
       path: "./assets/music/listSong1/song23.mp3",
-      image: "./assets/image/mabCharts/song23.jpg",
+      image: "./assets/image/tabCharts/song23.jpg",
     },
     {
       name: "Túp Lều Vàng",
@@ -2082,7 +2011,7 @@ const app = {
       singers: ["Nguyễn Đình Vũ", "ACV"],
       time: "03:31",
       path: "./assets/music/listSong1/song24.mp3",
-      image: "./assets/image/mabCharts/song24.jpg",
+      image: "./assets/image/tabCharts/song24.jpg",
     },
     {
       name: "LALISA",
@@ -2090,7 +2019,7 @@ const app = {
       singers: ["LISA"],
       time: "03:21",
       path: "./assets/music/listSong1/song25.mp3",
-      image: "./assets/image/mabCharts/song25.jpg",
+      image: "./assets/image/tabCharts/song25.jpg",
     },
     {
       name: "Sai Cách Yêu",
@@ -2098,7 +2027,7 @@ const app = {
       singers: ["Lê Bảo Bình"],
       time: "05:42",
       path: "./assets/music/listSong1/song26.mp3",
-      image: "./assets/image/mabCharts/song26.jpg",
+      image: "./assets/image/tabCharts/song26.jpg",
     },
     {
       name: "có hẹn với thanh xuân",
@@ -2106,7 +2035,7 @@ const app = {
       singers: ["MONSTAR"],
       time: "03:38",
       path: "./assets/music/listSong1/song27.mp3",
-      image: "./assets/image/mabCharts/song27.jpg",
+      image: "./assets/image/tabCharts/song27.jpg",
     },
     {
       name: "Em Nào Có Tội",
@@ -2114,7 +2043,7 @@ const app = {
       singers: ["Thương Võ", "ACV"],
       time: "04:51",
       path: "./assets/music/listSong1/song28.mp3",
-      image: "./assets/image/mabCharts/song28.jpg",
+      image: "./assets/image/tabCharts/song28.jpg",
     },
     {
       name: "Nhắn Tới Khoảng Trời Em",
@@ -2122,7 +2051,7 @@ const app = {
       singers: ["Quân A.P"],
       time: "03:55",
       path: "./assets/music/listSong1/song29.mp3",
-      image: "./assets/image/mabCharts/song29.jpg",
+      image: "./assets/image/tabCharts/song29.jpg",
     },
     {
       name: "Em Hứa Thế Nào",
@@ -2130,7 +2059,7 @@ const app = {
       singers: ["Như Việt", "ACV"],
       time: "04:25",
       path: "./assets/music/listSong1/song30.mp3",
-      image: "./assets/image/mabCharts/song30.jpg",
+      image: "./assets/image/tabCharts/song30.jpg",
     },
   ],
 
@@ -2146,8 +2075,7 @@ const app = {
       {
         name: "BlackBi",
         time: "14 tháng 10 lúc 00:40",
-        content:
-          "CÁC EM ĐỪNG DIỄN TRƯỚC MẶT CHỊ NỮA - Chị chỉ vui đùa các em giải trí thôi =))",
+        content: "CÁC EM ĐỪNG DIỄN TRƯỚC MẶT CHỊ NỮA - Chị chỉ vui đùa các em giải trí thôi =))",
         authorAvatar: "./assets/image/tabFollowing/avatars/artist2.jpg",
         image: "./assets/image/tabFollowing/posts/artist2.jpg",
       },
@@ -2168,8 +2096,7 @@ const app = {
       {
         name: "Chi Pu",
         time: "14 tháng 10 lúc 00:36",
-        content:
-          "Sự thật thì luôn luôn đơn giản nhưng people make it complicated, nên là mình cứ enjoy cái moment này",
+        content: "Sự thật thì luôn luôn đơn giản nhưng people make it complicated, nên là mình cứ enjoy cái moment này",
         authorAvatar: "./assets/image/tabFollowing/avatars/artist5.jpg",
         image: "./assets/image/tabFollowing/posts/artist5.jpg",
       },
@@ -2178,16 +2105,14 @@ const app = {
       {
         name: "Lăng LD",
         time: "14 tháng 10 lúc 00:35",
-        content:
-          "Tươm tất vậy đó để đi mua cà phê take away chứ chưa được ngồi lại nghen😁",
+        content: "Tươm tất vậy đó để đi mua cà phê take away chứ chưa được ngồi lại nghen😁",
         authorAvatar: "./assets/image/tabFollowing/avatars/artist6.jpg",
         image: "./assets/image/tabFollowing/posts/artist6.jpg",
       },
       {
         name: "Sơn Tùng M-TP",
         time: "14 tháng 10 lúc 00:33",
-        content:
-          "Anh đoán tên em là Google. </br>Bởi vì em có mọi thứ mà anh đang tìm kiếm ❤️",
+        content: "Anh đoán tên em là Google. </br>Bởi vì em có mọi thứ mà anh đang tìm kiếm ❤️",
         authorAvatar: "./assets/image/tabFollowing/avatars/artist7.jpg",
         image: "./assets/image/tabFollowing/posts/artist7.jpg",
       },
@@ -2264,8 +2189,7 @@ const app = {
           navigationText: "#dadada",
           placeholderText: "#dadada",
         },
-        playerImage:
-          "./assets/image/themeBgs/listTheme1/playerThemes/theme1.png",
+        playerImage: "./assets/image/themeBgs/listTheme1/playerThemes/theme1.png",
       },
       {
         image: "./assets/image/themeBgs/listTheme1/theme2.jpg",
@@ -2946,7 +2870,9 @@ const app = {
                 <div class="row__item item--mv">
                   <div class="row__item-container">
                     <div class="row__item-display br-5">
-                      <div class="row__item-img img--mv" style="background: url('${mv.image}') no-repeat center center / cover"></div>
+                      <div class="row__item-img img--mv" style="background: url('${
+                        mv.image
+                      }') no-repeat center center / cover"></div>
                       <div class="row__item-actions">
                         <div class="action-btn mv--btn-close">
                           <i class="bi bi-x-lg btn--icon"></i>
@@ -2966,9 +2892,7 @@ const app = {
                           mv.authorAvatar
                         }') no-repeat center center / cover"></div>
                         <div class="media__info">
-                          <a href="#" class="row__info-name is-active">${
-                            mv.name
-                          }</a>
+                          <a href="#" class="row__info-name is-active">${mv.name}</a>
                           <h3 class="row__info-creator">
                             ${mv.author.map((author, index) => {
                               return ` <a href="#" class="is-ghost">${author}</a>`;
@@ -3046,7 +2970,9 @@ const app = {
                   ${index > 3 && index < app.listExploreSlide.length - 1 && "fifth"}
                   ${index === app.listExploreSlide.length - 1 && "sixth prev"} ">
                   <div class="row__item-display">
-                      <div class="explore__slide-img row__item-img img--rec" style="background: url('${exploreSlide.image}') no-repeat center center / cover"></div>
+                      <div class="explore__slide-img row__item-img img--rec" style="background: url('${
+                        exploreSlide.image
+                      }') no-repeat center center / cover"></div>
                   </div>
               </div>
             `;
@@ -3140,7 +3066,7 @@ const app = {
                 </div>
             `;
         })}
-        `
+        `;
       singerList.innerHTML = singerListHTML;
     });
   },
@@ -3153,7 +3079,9 @@ const app = {
             <div class="row__item item--event">
               <div class="row__item-container">
                 <div class="row__item-display br-5">
-                  <div class="row__item-img img--mv" style="background: url('${event.image}') no-repeat center center / cover"></div>
+                  <div class="row__item-img img--mv" style="background: url('${
+                    event.image
+                  }') no-repeat center center / cover"></div>
                   <div class="blur"></div>
                   <div class="row__item-display-content">
                     <div class="display__content-label">Sự Kiện</div>
@@ -3202,7 +3130,9 @@ const app = {
             <div class="row__item item--new-playlist">
               <div class="row__item-container">
                 <div class="row__item-display br-5">
-                  <div class="row__item-img" style="background: url('${newPlaylist.image}') no-repeat center center / cover"></div>
+                  <div class="row__item-img" style="background: url('${
+                    newPlaylist.image
+                  }') no-repeat center center / cover"></div>
                   <div class="row__item-actions">
                         <div class="btn--play-playlist">
                           <div class="control-btn btn-toggle-play">
@@ -3243,7 +3173,9 @@ const app = {
                   <div class="row__item item--fav-artist">
                       <div class="row__item-container flex--top-left">
                           <div class="row__item-display br-5">
-                              <div class="row__item-img img--square" style="background: url('${favArtist.image}') no-repeat center center / cover"></div>
+                              <div class="row__item-img img--square" style="background: url('${
+                                favArtist.image
+                              }') no-repeat center center / cover"></div>
                               <div class="row__item-actions">
                                   <div class="btn--fav-artist">
                                       <div class="control-btn btn-toggle-play">
@@ -3257,15 +3189,13 @@ const app = {
                                   <h3 class="display__content-explication is-oneline">${favArtist.explication}</h3>
                                   <p class="display__content-artist is-oneline">${favArtist.name}</p>
                                   <div class="display__content-list">
-                                    ${favArtist.songs.map(
-                                      (song, index) => {
-                                        return `
+                                    ${favArtist.songs.map((song, index) => {
+                                      return `
                                             <div class="display__content-list-song">
                                                 <div class="display__content-song-img" style="background: url('${song}') no-repeat center center / cover"></div>
                                             </div>
                                         `;
-                                      }
-                                    )}
+                                    })}
                                   </div>
                               </div>
                           </div>
@@ -3303,21 +3233,26 @@ const app = {
                             <img src="${app.specialPlaylists[playlistListIndex].header.image}" alt="">
                         </div>
                         <div class="special__header-info">
-                            <div class="info__explication">${app.specialPlaylists[playlistListIndex].header.explication}</div>
-                            <div class="info__topic-name is-active">${app.specialPlaylists[playlistListIndex].header.topicName}</div>
+                            <div class="info__explication">${
+                              app.specialPlaylists[playlistListIndex].header.explication
+                            }</div>
+                            <div class="info__topic-name is-active">${
+                              app.specialPlaylists[playlistListIndex].header.topicName
+                            }</div>
                         </div>
                     </div>
                 </div>
                 <div class="col col-lg-12 col-md-12 col-12">
                     <div class="row no-wrap special-playlist--container">
-                        ${app.specialPlaylists[playlistListIndex].playlists.map(
-                          (playlist, index) => {
-                            return `
+                        ${app.specialPlaylists[playlistListIndex].playlists.map((playlist, index) => {
+                          return `
                             <div class="col col-lg-2-4 col-md-3 col-4">
                             <div class="row__item item--playlist">
                                 <div class="row__item-container">
                                     <div class="row__item-display br-5">
-                                        <div class="row__item-img" style="background: url('${playlist.image}') no-repeat center center / cover"></div>
+                                        <div class="row__item-img" style="background: url('${
+                                          playlist.image
+                                        }') no-repeat center center / cover"></div>
                                         <div class="row__item-actions">
                                             <div class="playlist__song-btn btn--heart option-btn">
                                                 <i class="btn--icon song__icon icon--heart bi bi-heart-fill primary"></i>
@@ -3334,32 +3269,33 @@ const app = {
                                         <div class="overlay"></div>
                                     </div>
                                     <div class="row__item-info explore--playlist-info">
-                                        <a href="#" class="row__info-name ${(playlistListIndex < 2 && "is-oneline") | "is-twoline"}">${playlist.name}</a>
+                                        <a href="#" class="row__info-name ${
+                                          (playlistListIndex < 2 && "is-oneline") | "is-twoline"
+                                        }">${playlist.name}</a>
                                         <p class="info__artist">                 
-                                        ${playlist.artists.map(
-                                          (artist, artistIndex) => {
-                                            return ` <a href="#" class="is-ghost">${artist}</a>`;
-                                          }
-                                        )}
+                                        ${playlist.artists.map((artist, artistIndex) => {
+                                          return ` <a href="#" class="is-ghost">${artist}</a>`;
+                                        })}
                                         </p>
                                     </div>
                                 </div>
                             </div> 
                         </div>
                             `;
-                          }
-                        )}
+                        })}
                     </div>
                 </div>
             `;
-            specialPlaylistList.innerHTML = specialPlaylistListHTML;
+      specialPlaylistList.innerHTML = specialPlaylistListHTML;
     });
   },
 
   renderNormalPlaylist() {
     normalPlaylistLists.forEach((normalPlaylistList, playlistListIndex) => {
       const normalPlaylistListHTML = `
-        ${playlistListIndex != 6 && `
+        ${
+          playlistListIndex != 6 &&
+          `
           <div class="col col-lg-12 col-md-12 col-12">
             <div class="container__header">
               <a href="#" class="container__header-title">
@@ -3378,7 +3314,9 @@ const app = {
                       <div class="row__item item--playlist">
                           <div class="row__item-container">
                               <div class="row__item-display br-5">
-                                  <div class="row__item-img" style="background: url('${playlist.image}') no-repeat center center / cover"></div>
+                                  <div class="row__item-img" style="background: url('${
+                                    playlist.image
+                                  }') no-repeat center center / cover"></div>
                                   <div class="row__item-actions">
                                       <div class="playlist__song-btn btn--heart option-btn">
                                           <i class="btn--icon song__icon icon--heart bi bi-heart-fill primary"></i>
@@ -3395,16 +3333,22 @@ const app = {
                                   <div class="overlay"></div>
                               </div>
                               <div class="row__item-info explore-playlist--info">
-                                  ${playlistListIndex != 3 &&
-                                    ` <a href="#" class="row__info-name ${(playlistListIndex != 5 &&playlistListIndex != 7 && "is-oneline") || "is-twoline"}">${playlist.name}</a>`
+                                  ${
+                                    playlistListIndex != 3 &&
+                                    ` <a href="#" class="row__info-name ${
+                                      (playlistListIndex != 5 && playlistListIndex != 7 && "is-oneline") || "is-twoline"
+                                    }">${playlist.name}</a>`
                                   }
-                                  ${ playlistListIndex != 5 &&
+                                  ${
+                                    playlistListIndex != 5 &&
                                     `
                                     <p class="info__artist">
-                                      ${playlist.artists.map((artist,artistIndex) => {
-                                        return ` <a href="#" class="${(playlistListIndex != 1 && playlistListIndex !=2 && "is-ghost") || "is-description"}">${artist}</a>`;
-                                        }
-                                      )}
+                                      ${playlist.artists.map((artist, artistIndex) => {
+                                        return ` <a href="#" class="${
+                                          (playlistListIndex != 1 && playlistListIndex != 2 && "is-ghost") ||
+                                          "is-description"
+                                        }">${artist}</a>`;
+                                      })}
                                     </p>
                                   `
                                   }
@@ -3413,8 +3357,7 @@ const app = {
                       </div>
                   </div>
               `;
-            }
-            )}
+            })}
           </div>
         </div>
       `;
@@ -3428,9 +3371,7 @@ const app = {
             <div class="col col-lg-12 col-md-12 col-12">
             <div class="container__playlist">
               <div class="playlist__list-charts overflow-visible">
-                <div class="playlist__list-song ${
-                  index > 9 && "song--not-expand"
-                }">
+                <div class="playlist__list-song ${index > 9 && "song--not-expand"}">
                   <div class="playlist__song-info">
                     <div class="playlist__song-rank">
                       <div class="playlist__rank-number 
@@ -3500,9 +3441,7 @@ const app = {
                             }') no-repeat center center / cover"></div>
                             <div class="media-info">
                             <div class="media__info-header">
-                                <div class="info__title is-active is-oneline">${
-                                  post.name
-                                }</div>
+                                <div class="info__title is-active is-oneline">${post.name}</div>
                                 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
                                 <span class="follow-btn">Quan tâm</span>
                             </div>
@@ -3519,31 +3458,21 @@ const app = {
                     <div class="row__item-display br-5 story__item-display">
                         <div class="story__item-img 
                             ${postIndex === 0 && index < 2 && "img--rec"}
-                            ${
-                              postIndex === 0 &&
-                              index === 2 &&
-                              "img--rec-vertical"
-                            }
+                            ${postIndex === 0 && index === 2 && "img--rec-vertical"}
                             ${postIndex === 0 && index === 3 && "img--square"}
                             ${postIndex === 0 && index === 4 && "img--rec"}
                             ${postIndex === 1 && index < 4 && "img--square"}
                             ${postIndex === 1 && index === 4 && "img--rec"}
-                        " style="background: url('${
-                          post.image
-                        }') no-repeat center center / cover"></div>
+                        " style="background: url('${post.image}') no-repeat center center / cover"></div>
                     </div>
                     <div class="story__item-action">
                         <div class="action-btn story-btn--heart">
                             <i class="btn--icon icon--heart bi bi-heart"></i>
-                            <span class="action__number">${Math.floor(
-                              Math.random() * 1000
-                            )}</span>
+                            <span class="action__number">${Math.floor(Math.random() * 1000)}</span>
                         </div>
                         <div class="action-btn story-btn--comment">
                             <i class="btn--icon icon--comment bi bi-chat-dots"></i>
-                            <span class="action__number">${Math.floor(
-                              Math.random() * 1000
-                            )}</span>
+                            <span class="action__number">${Math.floor(Math.random() * 1000)}</span>
                         </div>
                     </div>
                     </div>
@@ -3561,9 +3490,7 @@ const app = {
                   <div class="row sm-gutter theme__list">
                       <div class="col-lg-12 col-md-12 col-12">
                           <div class="theme__container-info">
-                              <h3 class="theme__info-name">${
-                                themeList.type
-                              }</h3>
+                              <h3 class="theme__info-name">${themeList.type}</h3>
                           </div>
                       </div>
                       ${themeList.themes.map((theme, index) => {
@@ -3594,7 +3521,7 @@ const app = {
           })}
         
         `;
-        themeContainer.innerHTML = themeContainerHTML
+    themeContainer.innerHTML = themeContainerHTML;
   },
 
   defineProperties: function () {
@@ -3631,18 +3558,10 @@ const app = {
     const _this = this;
     const playBtns = Array.from($$(".btn-toggle-play.btn--play-song"));
     const listThemes = Array.from($$(".theme__container .theme__list"));
-    const singerSlideMove = $(
-      ".tab--explore .singer-slide--container .singer__slide-move"
-    );
-    const followingSingerSlideMove = $(
-      ".tab--following .singer-slide--container .singer__slide-move"
-    );
-    const listSingersBtns = $$(
-      ".tab--explore .singer__slide-move .slide__move-btn"
-    );
-    const followingListSingerBtns = $$(
-      ".tab--following .singer__slide-move .slide__move-btn"
-    );
+    const singerSlideMove = $(".tab--explore .singer-slide--container .singer__slide-move");
+    const followingSingerSlideMove = $(".tab--following .singer-slide--container .singer__slide-move");
+    const listSingersBtns = $$(".tab--explore .singer__slide-move .slide__move-btn");
+    const followingListSingerBtns = $$(".tab--following .singer__slide-move .slide__move-btn");
     const slideMove = $(".explore__slide--container .explore__slide-move");
     const newPlaylistMove = $(".container__header-actions.new-playlist--move");
     const favArtistMove = $(".container__header-actions.fav-artist--move");
@@ -3693,9 +3612,7 @@ const app = {
     playAllBtns.forEach((playAllBtn) => {
       playAllBtn.onclick = function () {
         _this.currentIndex = 0;
-        const songActives = $$(
-          `.playlist__list-song[data-index="${_this.currentIndex}"]`
-        );
+        const songActives = $$(`.playlist__list-song[data-index="${_this.currentIndex}"]`);
         _this.loadCurrentSong();
         Array.from($$(".playlist__list-song.active")).forEach((songActive) => {
           songActive.classList.remove("active");
@@ -3804,20 +3721,15 @@ const app = {
     audio.ontimeupdate = function (e) {
       if (audio.duration) {
         if (!_this.isSeeking) {
-          const listDurationTime = $(
-            ".playlist__list-song.active .playlist__song-time"
-          );
+          const listDurationTime = $(".playlist__list-song.active .playlist__song-time");
           trackTimes.forEach((trackTime) => {
             trackTime.innerHTML = _this.audioCalTime(audio.currentTime);
           });
           progress.forEach((progressChild) => {
-            progressChild.value = Math.round(
-              (audio.currentTime / audio.duration) * 100
-            );
+            progressChild.value = Math.round((audio.currentTime / audio.duration) * 100);
           });
           progressTracks.forEach((progressTrack) => {
-            progressTrack.style.width =
-              Math.round((audio.currentTime / audio.duration) * 100) + "%";
+            progressTrack.style.width = Math.round((audio.currentTime / audio.duration) * 100) + "%";
           });
         }
       } else {
@@ -3961,9 +3873,7 @@ const app = {
     // Listen to playlist clicks
     songLists.forEach((songList) => {
       songList.onclick = function (e) {
-        const checkNode = e.target.closest(
-          ".playlist__list-song:not(.active) .playlist__song-check"
-        );
+        const checkNode = e.target.closest(".playlist__list-song:not(.active) .playlist__song-check");
         const songNode = e.target.closest(".playlist__list-song:not(.active)");
         const optionNode = e.target.closest(".playlist__song-option");
         const heartIconBtn = e.target.closest(".btn--heart");
@@ -3972,16 +3882,12 @@ const app = {
         if (songNode && !optionNode && !checkNode) {
           if (songNode) {
             _this.currentIndex = Number(songNode.dataset.index);
-            const songActives = $$(
-              `.playlist__list-song[data-index="${_this.currentIndex}"]`
-            );
+            const songActives = $$(`.playlist__list-song[data-index="${_this.currentIndex}"]`);
             _this.loadCurrentSong();
-            Array.from($$(".playlist__list-song.active")).forEach(
-              (songActive) => {
-                songActive.classList.remove("playing");
-                songActive.classList.remove("active");
-              }
-            );
+            Array.from($$(".playlist__list-song.active")).forEach((songActive) => {
+              songActive.classList.remove("playing");
+              songActive.classList.remove("active");
+            });
             Array.from(songActives).forEach((songActive) => {
               songActive.classList.add("active");
             });
@@ -3992,12 +3898,8 @@ const app = {
         //Handle when click on song checkbox
         if (checkNode) {
           checkNode.onclick = function (e) {
-            const inputCheck = e.target
-              .closest(".playlist__song-check")
-              .querySelector(".mr-10");
-            e.target
-              .closest(".playlist__list-song")
-              .classList.toggle("active", inputCheck.checked);
+            const inputCheck = e.target.closest(".playlist__song-check").querySelector(".mr-10");
+            e.target.closest(".playlist__list-song").classList.toggle("active", inputCheck.checked);
           };
         }
 
@@ -4014,18 +3916,10 @@ const app = {
       const authorNode = e.target.closest(
         ".player__container .player__song-info.media .player__song-author.info__author"
       );
-      const actionNode = e.target.closest(
-        ".player__container .player__song-info"
-      );
-      const controlNode = e.target.closest(
-        ".player__container .player__control-btn"
-      );
-      const progressNode = e.target.closest(
-        ".player__container .progress-block"
-      );
-      const optionNode = e.target.closest(
-        ".player__container .player__options-container"
-      );
+      const actionNode = e.target.closest(".player__container .player__song-info");
+      const controlNode = e.target.closest(".player__container .player__control-btn");
+      const progressNode = e.target.closest(".player__container .progress-block");
+      const optionNode = e.target.closest(".player__container .player__options-container");
       const popUpNode = e.target.closest(".player .player__popup");
       const popDownBtn = e.target.closest(".popup__action-btn.btn--pop-down");
       if (
@@ -4053,8 +3947,7 @@ const app = {
       const slideImgFirst = $(".container__slide-item.first");
       const slideImgSecond = $(".container__slide-item.second");
       const slideImgThird = slideImgs[imgIndex];
-      const slideImgFourth =
-        slideImgs[imgIndex === slideImgs.length - 1 ? 0 : imgIndex + 1];
+      const slideImgFourth = slideImgs[imgIndex === slideImgs.length - 1 ? 0 : imgIndex + 1];
       slideImgFourth.classList.replace("fourth", "third");
       slideImgThird.classList.replace("third", "second");
       slideImgSecond.classList.replace("second", "first");
@@ -4148,8 +4041,7 @@ const app = {
     Array.from(heartIconBtns).forEach((heartIconBtn) => {
       heartIconBtn.onclick = (e) => {
         const heartIcon = heartIconBtn.firstElementChild;
-        if (heartIcon.classList.contains("primary"))
-          heartIcon.classList.replace("bi-heart-fill", "bi-heart");
+        if (heartIcon.classList.contains("primary")) heartIcon.classList.replace("bi-heart-fill", "bi-heart");
         else heartIcon.classList.replace("bi-heart", "bi-heart-fill");
         heartIcon.classList.toggle("primary");
         e.stopPropagation();
@@ -4212,9 +4104,7 @@ const app = {
     };
 
     // Handle when click on playlist item
-    const playlistItems = $$(
-      ".tab-home .playlist--container .row__item.item--playlist"
-    );
+    const playlistItems = $$(".tab-home .playlist--container .row__item.item--playlist");
     Array.from(playlistItems).forEach((playlist, index) => {
       playlist.onclick = function (e) {
         const playlistBtn = e.target.closest(".btn--play-playlist");
@@ -4222,9 +4112,7 @@ const app = {
       };
     });
 
-    const tabPlaylistItems = $$(
-      ".tab-playlist .playlist--container .row__item.item--playlist"
-    );
+    const tabPlaylistItems = $$(".tab-playlist .playlist--container .row__item.item--playlist");
     Array.from(tabPlaylistItems).forEach((playlist, index) => {
       playlist.onclick = (e) => {
         const playlistBtn = e.target.closest(".btn--play-playlist");
@@ -4233,10 +4121,10 @@ const app = {
     });
 
     // Handle open playlist sidebar
-    playlistSidebarBtn.onclick = function() {
-      playlistSidebar.classList.toggle("open")
-      playlistSidebarBtn.classList.toggle("open")
-    }
+    playlistSidebarBtn.onclick = function () {
+      playlistSidebar.classList.toggle("open");
+      playlistSidebarBtn.classList.toggle("open");
+    };
 
     // Open and close modal theme
     navThemeBtn.onclick = function () {
@@ -4258,9 +4146,7 @@ const app = {
     // Handle change theme method
     listThemes.forEach((listTheme, themeIndex) => {
       listTheme.onclick = (e) => {
-        const applyThemeBtn = e.target.closest(
-          ".theme__actions-btn.btn--apply-theme"
-        );
+        const applyThemeBtn = e.target.closest(".theme__actions-btn.btn--apply-theme");
         const previewBtn = e.target.closest(".theme__actions-btn.btn--preview");
         const themeItem = e.target.closest(".theme__container-item");
         if (themeItem && (applyThemeBtn || previewBtn)) {
@@ -4327,24 +4213,14 @@ const app = {
           const prevBtn = e.target.closest(".slide__move-btn.btn--prev");
           const nextBtn = e.target.closest(".slide__move-btn.btn--next");
           if (nextBtn) {
-            _this.showSlides(
-              step,
-              order,
-              singerSlideContainers[index],
-              listBtns
-            );
+            _this.showSlides(step, order, singerSlideContainers[index], listBtns);
             clearTimeout(singerSlideId);
             singerSlideId = setTimeout(function () {
               singerSlideShow(step, order, index, listBtns);
             }, 4000);
           }
           if (prevBtn) {
-            _this.showSlides(
-              -step,
-              order,
-              singerSlideContainers[index],
-              listBtns
-            );
+            _this.showSlides(-step, order, singerSlideContainers[index], listBtns);
             clearTimeout(singerSlideId);
             singerSlideId = setTimeout(function () {
               singerSlideShow(step, order, index, listBtns);
@@ -4358,24 +4234,14 @@ const app = {
           const prevBtn = e.target.closest(".slide__move-btn.btn--prev");
           const nextBtn = e.target.closest(".slide__move-btn.btn--next");
           if (nextBtn) {
-            _this.showSlides(
-              step,
-              order,
-              singerSlideContainers[index],
-              listBtns
-            );
+            _this.showSlides(step, order, singerSlideContainers[index], listBtns);
             clearTimeout(singerSlideId);
             singerSlideId = setTimeout(function () {
               singerSlideShow(step, order, index, listBtns);
             }, 4000);
           }
           if (prevBtn) {
-            _this.showSlides(
-              -step,
-              order,
-              singerSlideContainers[index],
-              listBtns
-            );
+            _this.showSlides(-step, order, singerSlideContainers[index], listBtns);
             clearTimeout(singerSlideId);
             singerSlideId = setTimeout(function () {
               singerSlideShow(step, order, index, listBtns);
@@ -4506,15 +4372,10 @@ const app = {
     // ****** Tab following
     storyActions.forEach((storyAction) => {
       storyAction.onclick = (e) => {
-        const btnHeart = e.target.closest(
-          ".story-btn--heart .btn--icon.icon--heart"
-        );
-        const btnComment = e.target.closest(
-          ".story-btn--comment .btn--icon.icon--comment"
-        );
+        const btnHeart = e.target.closest(".story-btn--heart .btn--icon.icon--heart");
+        const btnComment = e.target.closest(".story-btn--comment .btn--icon.icon--comment");
         if (btnHeart) {
-          const numberNode =
-            btnHeart.parentElement.querySelector(".action__number");
+          const numberNode = btnHeart.parentElement.querySelector(".action__number");
           const numberLike = numberNode.innerText;
           if (btnHeart.classList.contains("primary")) {
             btnHeart.classList.remove("primary");
@@ -4618,9 +4479,7 @@ const app = {
   },
 
   prevSlide: function () {
-    const slideMoveItems = Array.from(
-      $$(".explore__slide--container .explore__slide-item")
-    );
+    const slideMoveItems = Array.from($$(".explore__slide--container .explore__slide-item"));
     $(".explore__slide-item.next").classList.remove("next");
     $(".explore__slide-item.prev").classList.remove("prev");
     const firstSlide = $(".explore__slide-item.first");
@@ -4629,9 +4488,7 @@ const app = {
     const fourthSlide = $(".explore__slide-item.fourth");
     const sixthSlide = $(".explore__slide-item.sixth");
     const fifthSlideIndex =
-      slideMoveItems.indexOf(sixthSlide) === 0
-        ? slideMoveItems.length - 1
-        : slideMoveItems.indexOf(sixthSlide) - 1;
+      slideMoveItems.indexOf(sixthSlide) === 0 ? slideMoveItems.length - 1 : slideMoveItems.indexOf(sixthSlide) - 1;
     const fifthSlide = slideMoveItems[fifthSlideIndex];
 
     firstSlide.classList.replace("first", "second");
@@ -4653,7 +4510,8 @@ const app = {
     const thirdSlide = $(".explore__slide-item.third");
     const fourthSlide = $(".explore__slide-item.fourth");
     const sixthSlide = $(".explore__slide-item.sixth");
-    const fifthSlideIndex = slideMoveItems.indexOf(fourthSlide) === slideMoveItems.length - 1 ? 0 : slideMoveItems.indexOf(fourthSlide) + 1;
+    const fifthSlideIndex =
+      slideMoveItems.indexOf(fourthSlide) === slideMoveItems.length - 1 ? 0 : slideMoveItems.indexOf(fourthSlide) + 1;
     const fifthSlide = slideMoveItems[fifthSlideIndex];
 
     firstSlide.classList.add("prev");
@@ -4718,9 +4576,7 @@ const app = {
   showSlides(step, slideOrder, listContainer, listBtn) {
     const listItems = $$(this.slideSelectors[slideOrder]);
     this.getSlideIndex(step, slideOrder, listItems, listBtn);
-    const currentIndex = Math.floor(
-      this.slideIndexs[slideOrder] / Math.abs(step)
-    );
+    const currentIndex = Math.floor(this.slideIndexs[slideOrder] / Math.abs(step));
     // Scroll Into View
     listContainer.scrollLeft = listContainer.offsetWidth * currentIndex;
   },
@@ -4740,15 +4596,14 @@ const app = {
       });
     }
     volumes.forEach((volume) => {
-      volume.value =
-        this.config.currentVolume == 0 ? 0 : this.config.currentVolume || 100;
+      volume.value = this.config.currentVolume == 0 ? 0 : this.config.currentVolume || 100;
     });
     volumeTracks.forEach((volumeTrack) => {
-      volumeTrack.style.width = (this.config.currentVolume == 0? 0 : this.config.currentVolume || 100) + "%";
+      volumeTrack.style.width = (this.config.currentVolume == 0 ? 0 : this.config.currentVolume || 100) + "%";
     });
-    durationTimes.forEach(durationTime => {
-        durationTime.textContent = this.audioCalTime(this.durationList[this.currentPlaylist][this.currentIndex]);
-    })
+    durationTimes.forEach((durationTime) => {
+      durationTime.textContent = this.audioCalTime(this.durationList[this.currentPlaylist][this.currentIndex]);
+    });
     randomBtns.forEach((randomBtn) => {
       randomBtn.classList.toggle("active", this.isRandom);
     });
@@ -4767,7 +4622,7 @@ const app = {
     document.documentElement.style.setProperty("--modal-scrollbar", currentThemeColor.modalScrollbar);
     document.documentElement.style.setProperty("--player-bg", currentThemeColor.playerBg);
     document.documentElement.style.setProperty("--purple-primary", currentThemeColor.purplePrimary);
-    document.documentElement.style.setProperty("--primary-bg",currentThemeColor.primaryBg);
+    document.documentElement.style.setProperty("--primary-bg", currentThemeColor.primaryBg);
     document.documentElement.style.setProperty("--sidebar-popup-bg", currentThemeColor.sidebarPopupBg);
     document.documentElement.style.setProperty("--text-color", currentThemeColor.textColor);
     document.documentElement.style.setProperty("--text-item-hover", currentThemeColor.textItemHover);
